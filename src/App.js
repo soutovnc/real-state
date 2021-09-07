@@ -1,6 +1,11 @@
+import NavBar from './components/NavBar'
+
 function App() {
   return (
-    <h1>Let's code!</h1>
+    <>
+      <NavBar />
+      <h1>Let's code!</h1>
+    </>
   );
 }
 
